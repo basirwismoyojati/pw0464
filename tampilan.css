@@ -1,0 +1,58 @@
+
+body {
+	background-image: url(https://www.walldevil.com/wallpapers/a68/background-web-blue-wallpaper-images-website-twice.jpg);
+}
+table {
+    font-family: agency fb;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+td, th {
+	font-family: Berlin sans fb;
+    border: 3px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+table {
+  border : 100%;
+  background-color: #eee;
+ }
+
+tr:nth-child(even) {
+    background-color: #3cb371;
+}
+tr, th {
+	text-align: center;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
