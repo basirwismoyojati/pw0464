@@ -1,0 +1,43 @@
+table {
+    font-family: aharoni;
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 15px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+table {
+  border : 100%;
+  background-color:   #20B2AA;
+}
+
+tr:nth-child(even) {
+    background-color: #3cb371;
+}
+
+table , td, th {
+  border : 3px solid black;
+}
+
+h2 {
+text-align : center;
+}
+
+body {
+	background-image: url(https://www.walldevil.com/wallpapers/a68/background-web-blue-wallpaper-images-website-twice.jpg);
+}
+
+tr, th {
+	background-color:white;
+  text-align: center;
+}
+
+
+tr, td {
+  text-align: center;
+}
