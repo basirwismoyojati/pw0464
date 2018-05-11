@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="tampilan.css">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="jquery-3.3.1.min"></script>
+</head>
+<body>
+
+<div class="header">
+<div class="logo">
+<img src="logo.png">
+</div>
+  <h1>website adalah sebuah halaman yang menyajikan informasi beraneka ragam
+  dalam website ini menampilkan informasi
+  hubungi basir@gmail.com </h1>
+  <h2>welcome to our project
+  <p>it's nice to meet you </p></h2>
+</div>
+
+<div class="topnav">
+<h1>PROJECT</h1>
+  <div class="subc"></div>
+  <div class="subc"></div>
+  <div class="subc"></div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+    </div>
+    <div class="card">
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <p></p>
+    </div>
+    <div class="card">
+      
+    </div>
+    <div class="card">
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>KONVERSI MATA UANG</h2>
+
+<form name='formUang' id='formUang' >  
+            Masukkan Angka:<br/>        
+            <input type='text' id='txtUang' name='txtUang'/><br/>  
+            Hasil Konversi:<br/>        
+            <input type='text' id='txtKonversi' name='txtKonversi' readonly/><br/>  
+            <input type='button' value='Convert' onclick='javascript:txtKonversi.value=formatCurrency(txtUang.value, ",", ".", 2)' />  
+        </form>  
+</div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    background-image: 
+}
+
+.header h1 {
+    font-size: 15px;
+    background: white;
+    width: 900px;
+    height: 75px;
+    margin: 0 auto;
+
+  
+}
+.logo {
+    float: left;
+    position: relative;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.header h2 {
+    width:900px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 15px;
+    background-image: url("header-bg.jpg");
+    font-family: verdana;
+    color: white;
+    font-style: italic;
+}
+
+.header p {
+    font-size: 25px;
+    font-style: 
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.topnav h1 {
+    text-align: center;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.subc{
+width: 275px;
+height:300px;
+background: #fff;
+float:left;
+margin: 10px;
+background-image: url("golden.png");
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    height: 300px;
+    width: 875px;
+    margin: 0 auto;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
